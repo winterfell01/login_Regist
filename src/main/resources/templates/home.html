@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+head>
+<meta charset="UTF-8">
+<title>Account List</title>
+<div th:replace="base::head"></div>
+</head>
+<body>
+<div th:replace="base::jumbotron1"></div>
+<nav id="nav_bar">
+ <ul id="navmenu">
+  <li><a class="current" href="/home">Home</a></li>
+  <li ><a href="/tranzactionform">Do the tranzaction</a></li>
+  <li><a  href="/tranzacResult">Tranzaction Result</a></li>
+  <li><a href="/addaccount">Add Accounts</a></li>
+ </ul>
+</nav><br/>
+
+<div style="width: 1000px;margin-left: 300px;" class="row">
+<h3>Login successully!</h3>
+<br/>
+</div>
+<div th:replace="base::footer"></div>
+
+</body>
+</html>
